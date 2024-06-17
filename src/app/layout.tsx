@@ -3,6 +3,7 @@ import "~/styles/globals.css";
 
 import { GeistSans } from "geist/font/sans";
 import MainProvider from "./_components/providers/main-providers";
+import Header from "./_components/sections/nav/Header";
 
 export const metadata = {
   title: "OSNow",
@@ -18,7 +19,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
       <body>
-        <MainProvider>{children}</MainProvider>
+        <MainProvider>
+          <Header />
+          {children}
+        </MainProvider>
       </body>
     </html>
   );

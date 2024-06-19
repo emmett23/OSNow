@@ -1,7 +1,13 @@
+import Container from "../custom-components/container";
+
 const Partners = () => {
   return (
-    <div className="min-h-[70vh] bg-[#FFFCE1] w-full">Partners</div>
-  )
-}
+    <Container className="min-h-[70vh]">
+      <h1 className="text-4xl font-extrabold tracking-normal text-gray-700 sm:text-5xl lg:text-6xl">
+        Partners
+      </h1>
+    </Container>
+  );
+};
 
-export default Partners
+export default Partners;

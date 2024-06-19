@@ -21,14 +21,14 @@ export type Menu = {
     },
     {
       id: 3,
-      title: "How we work",
-      path: "/services",
+      title: "Blogs",
+      path: "/blog",
       newTab: false,
     },
     {
       id: 4,
       title: "Partner with us",
-      path: "/partner-with us",
+      path: "/partner-with-us",
       newTab: false,
     },
   ];

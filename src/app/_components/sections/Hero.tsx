@@ -4,7 +4,7 @@ import Container from "../custom-components/container";
 
 const Hero = () => {
   return (
-    <div className="min-h-[80vh] w-full bg-gray-100 py-12 md:py-24 lg:py-32 xl:py-48">
+    <div className="min-h-[80vh] w-full bg-gray-100 pt-[120px] py-12 md:py-24 lg:py-32 xl:py-48">
       <Container className="text-center">
         <h1 className="text-gray-700 text-4xl font-extrabold tracking-normal sm:text-5xl lg:text-6xl">
           Welcome to OSNow!

@@ -1,8 +1,7 @@
 import Hero from "./_components/sections/Hero";
 import Challenges from "./_components/sections/Challenges";
 import HowWeWork from "./_components/sections/How-we-work";
-import Partners from "./_components/sections/Partners"; 
-import Footer from "./_components/sections/Footer";
+import Partners from "./_components/sections/Partners";
 import NewsLetter from "./_components/sections/NewsLetter";
 
 export default function HomePage() {
@@ -11,9 +10,8 @@ export default function HomePage() {
       <Hero />
       <Challenges />
       <HowWeWork />
-      <Partners /> 
+      <Partners />
       <NewsLetter />
-      <Footer />
     </main>
   );
 }

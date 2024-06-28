@@ -81,7 +81,7 @@ const Footer = () => {
           </p>
         </div>
       </footer>
-      <div className="flex flex-col items-center border-t border-gray-500 md:flex-row md:justify-between">
+      <div className="flex flex-col items-center py-4 border-t border-gray-500 md:flex-row md:justify-between">
         <p className="mb-2 md:mb-0">Copyright <span className="text-blue-800 font-bold">OSNow</span>, {year}</p>
         <p className="mb-2 md:mb-0">
           <Link href="/terms" className="hover:underline">

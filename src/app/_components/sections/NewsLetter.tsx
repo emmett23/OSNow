@@ -34,7 +34,7 @@ export default function NewsLetter() {
 
   return (
     <Container>
-      <div className="mx-auto my-20 text-gray-700 flex w-full flex-col items-center gap-y-4 rounded-lg py-20">
+      <div className="mx-auto my-20 text-white flex w-full flex-col items-center gap-y-4 rounded-lg py-20">
         <h1 className="text-center text-4xl font-extrabold tracking-normal sm:text-5xl lg:text-6xl">
           Visionary Vibes & Voices
         </h1>

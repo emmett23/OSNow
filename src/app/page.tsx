@@ -6,7 +6,7 @@ import NewsLetter from "./_components/sections/NewsLetter";
 
 export default function HomePage() {
   return (
-    <main className="flex min-h-screen flex-col items-center bg-gray-200">
+    <main className="flex min-h-screen flex-col items-center bg-[#131735] overflow-x-hidden">
       <Hero />
       <Challenges />
       <HowWeWork />

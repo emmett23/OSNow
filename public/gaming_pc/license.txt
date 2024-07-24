@@ -1,0 +1,11 @@
+Model Information:
+* title:	PC - Computer graphics
+* source:	https://sketchfab.com/3d-models/pc-computer-graphics-1f4333241f7b4de5a7aa0f3dc9eae3e2
+* author:	salvatore.butera1998 (https://sketchfab.com/salvatore.butera1998)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "PC - Computer graphics" (https://sketchfab.com/3d-models/pc-computer-graphics-1f4333241f7b4de5a7aa0f3dc9eae3e2) by salvatore.butera1998 (https://sketchfab.com/salvatore.butera1998) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

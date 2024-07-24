@@ -38,9 +38,9 @@ const Header = () => {
   return (
     <>
       <header
-        className={`left-0 top-0 z-40 flex w-full items-center px-5 bg-gray-100 text-black ${
+        className={`left-0 top-0 z-40 flex w-full items-center px-5 bg-gray-100 text-blue-300 ${
           sticky
-            ? "dark:bg-gray-dark dark:shadow-sticky-dark shadow-sticky fixed z-[9999] bg-gray-100 text-black !bg-opacity-80 backdrop-blur-sm transition"
+            ? "dark:bg-gray-dark dark:shadow-sticky-dark shadow-sticky fixed z-[9999] bg-[#515683] !bg-opacity-50 rounded-lg px-10  backdrop-blur-sm transition"
             : "absolute bg-transparent"
         }`}
       >
@@ -95,9 +95,9 @@ const Header = () => {
                 </button>
                 <nav
                   id="navbarCollapse"
-                  className={`navbar border-body-color/50 dark:border-body-color/20 dark:bg-dark absolute right-0 z-30 w-[250px] rounded border-[.5px] bg-white px-6 py-4 duration-300 lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
+                  className={`navbar border-body-color/50 dark:border-body-color/20 dark:bg-dark absolute right-0 z-30 w-[250px] rounded border-[.5px] bg-gray-900  px-6 py-4 duration-300 lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
                     navbarOpen
-                      ? "visibility top-full opacity-100"
+                      ? "visibility top-full opacity-100 !bg-opacity-80 border-none backdrop-blur"
                       : "invisible top-[120%] opacity-0"
                   }`}
                 >
@@ -109,7 +109,7 @@ const Header = () => {
                             href={menuItem.path}
                             className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-3 ${
                               usePathName === menuItem.path
-                                ? "text-gray-700"
+                                ? "text-blue-400"
                                 : "text-dark hover:text-primary"
                             }`}
                           >
@@ -158,7 +158,7 @@ const Header = () => {
               <div className="flex items-center justify-end">
                 <Link
                   href="/api/auth/signin"
-                  className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-xl bg-green-900 px-4 py-2 text-base font-medium text-white transition duration-300 hover:bg-opacity-90 md:block md:px-2 lg:px-4 xl:px-6"
+                  className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-xl bg-blue-500 px-4 py-2 text-base font-medium text-white transition duration-300 hover:bg-opacity-90 md:block md:px-2 lg:px-4 xl:px-6"
                 >
                   Sign in
                 </Link>

@@ -10,7 +10,7 @@ import { Tooltip } from "@mantine/core";
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
-    <div className="h-full min-h-[18vh] w-full bg-[#FFFCE1] px-2 text-gray-800 md:px-4">
+    <div className="h-full min-h-[18vh] w-full bg-[#d5d8f1] px-2 text-gray-800 md:px-4">
       <footer className="flex flex-col items-center justify-center p-4 md:p-8">
         <h1 className="mb-4 text-lg font-bold text-blue-700 md:text-2xl">
           Open Source Now

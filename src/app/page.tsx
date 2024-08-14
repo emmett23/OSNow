@@ -3,6 +3,7 @@ import Challenges from "./_components/sections/Challenges";
 import HowWeWork from "./_components/sections/How-we-work";
 import Partners from "./_components/sections/Partners";
 import NewsLetter from "./_components/sections/NewsLetter";
+import {Reviews} from "./_components/sections/Reviews";
 
 export default function HomePage() {
   return (
@@ -11,6 +12,7 @@ export default function HomePage() {
       <Challenges />
       <HowWeWork />
       <Partners />
+      <Reviews />
       <NewsLetter />
     </main>
   );

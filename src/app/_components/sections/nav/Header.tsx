@@ -40,7 +40,7 @@ const Header = () => {
       <header
         className={`left-40 top-4 z-40 flex w-3/4 items-center px-20 bg-gray-100 text-white rounded-lg ${
           sticky
-            ? "dark:bg-gray-dark dark:shadow-sticky-dark shadow-sticky fixed z-[9999] bg-[#242f97] !bg-opacity-90  backdrop-blur-sm transition"
+            ? "dark:bg-gray-dark dark:shadow-sticky-dark shadow-sticky fixed z-[9999] bg-[#263295] !bg-opacity-90  backdrop-blur-sm transition"
             : "absolute bg-transparent "
         }`}
       >

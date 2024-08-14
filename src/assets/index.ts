@@ -14,7 +14,8 @@ import huawei from './huawei.png';
 import dji from './dji.png';
 import amd from './amd.png';
 import tesla from './tesla.png';
+import osn from './osn.png';
 
 
 
-export { devops, cyber, frontend, backend, google, apple, microsoft, cisco, linux, safaricom, nvidia, xiaomi, huawei, dji, amd, tesla};
+export { devops, cyber, frontend, backend, google, apple, microsoft, cisco, linux, safaricom, nvidia, xiaomi, huawei, dji, amd, tesla, osn };

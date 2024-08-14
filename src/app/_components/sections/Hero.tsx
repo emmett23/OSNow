@@ -7,7 +7,7 @@ import { ComputersCanvas } from "../canvas";
 const Hero = () => {
   return (
     <div className="relative min-h-screen w-full bg-[#131735] pt-[120px] py-12 md:py-24 lg:py-32 xl:py-48 rounded-b-3xl ">
-      <Container className="text-center relative z-10 bg-[#767994] bg-opacity-25 rounded-lg p-8 text-white">
+      <Container className="text-center relative z-10 bg-[#767994] bg-opacity-25 rounded-lg p-8 text-white w-3/4">
         <h1 className="text-4xl font-extrabold tracking-normal sm:text-5xl lg:text-6xl">
           Welcome to OSNow!
         </h1>

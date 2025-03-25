@@ -26,7 +26,7 @@ At **OSNow**, we believe in the power of collaboration. Our work is guided by th
 If you're new to **OSNow**, here's how you can get started:
 
 1. **Explore**: Check out our projects and find one that interests you.
-2. **Connect**: Join our community on [Discord](https://discord.gg/wEf26bqp) to discuss ideas and get support.
+2. **Connect**: Join our community on [Discord](https://discord.gg/4t6bcAHS) to discuss ideas and get support. 
 3. **Contribute**: Pick up an issue from the issue tracker, or suggest new ideas for improvements.
 
 ## Open for Contribution 👐
